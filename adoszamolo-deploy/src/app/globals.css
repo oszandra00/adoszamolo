@@ -1,0 +1,9 @@
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --c-bg:#F7F5F0;--c-surface:#FFF;--c-border:#E2DDD5;--c-border-strong:#C8C0B4;
+  --c-text:#1A1714;--c-text-2:#6B6560;--c-text-3:#9C958E;
+  --c-accent:#2B5C3F;--c-accent-light:#EBF4EE;--c-accent-mid:#4A8F65;
+  --c-gold:#B8860B;--c-gold-light:#FFF8E7;
+  --font-display:'Fraunces',serif;--font-body:'DM Sans',sans-serif;
+}
+body{font-family:var(--font-body);background:var(--c-bg);color:var(--c-text);min-height:100vh;font-size:15px;line-height:1.6}
